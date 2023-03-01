@@ -1,0 +1,1297 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.40ce6ad8638a79a6e387a3a522bb17a87531460c.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.40ce6ad8638a79a6e387a3a522bb17a87531460c.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.40ce6ad8638a79a6e387a3a522bb17a87531460c.001.1",
+        "areaDesc": "Boone, IL; Cook, IL; De Kalb, IL; DuPage, IL; Ford, IL; Grundy, IL; Iroquois, IL; Kane, IL; Kankakee, IL; Kendall, IL; Lake, IL; La Salle, IL; Lee, IL; Livingston, IL; McHenry, IL; Ogle, IL; Will, IL; Winnebago, IL; Benton, IN; Jasper, IN; Lake, IN; Newton, IN; Porter, IN",
+        "geocode": {
+          "SAME": [
+            "017007",
+            "017031",
+            "017037",
+            "017043",
+            "017053",
+            "017063",
+            "017075",
+            "017089",
+            "017091",
+            "017093",
+            "017097",
+            "017099",
+            "017103",
+            "017105",
+            "017111",
+            "017141",
+            "017197",
+            "017201",
+            "018007",
+            "018073",
+            "018089",
+            "018111",
+            "018127"
+          ],
+          "UGC": [
+            "ILC007",
+            "ILC031",
+            "ILC037",
+            "ILC043",
+            "ILC053",
+            "ILC063",
+            "ILC075",
+            "ILC089",
+            "ILC091",
+            "ILC093",
+            "ILC097",
+            "ILC099",
+            "ILC103",
+            "ILC105",
+            "ILC111",
+            "ILC141",
+            "ILC197",
+            "ILC201",
+            "INC007",
+            "INC073",
+            "INC089",
+            "INC111",
+            "INC127"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/ILC007",
+          "https://api.weather.gov/zones/county/ILC031",
+          "https://api.weather.gov/zones/county/ILC037",
+          "https://api.weather.gov/zones/county/ILC043",
+          "https://api.weather.gov/zones/county/ILC053",
+          "https://api.weather.gov/zones/county/ILC063",
+          "https://api.weather.gov/zones/county/ILC075",
+          "https://api.weather.gov/zones/county/ILC089",
+          "https://api.weather.gov/zones/county/ILC091",
+          "https://api.weather.gov/zones/county/ILC093",
+          "https://api.weather.gov/zones/county/ILC097",
+          "https://api.weather.gov/zones/county/ILC099",
+          "https://api.weather.gov/zones/county/ILC103",
+          "https://api.weather.gov/zones/county/ILC105",
+          "https://api.weather.gov/zones/county/ILC111",
+          "https://api.weather.gov/zones/county/ILC141",
+          "https://api.weather.gov/zones/county/ILC197",
+          "https://api.weather.gov/zones/county/ILC201",
+          "https://api.weather.gov/zones/county/INC007",
+          "https://api.weather.gov/zones/county/INC073",
+          "https://api.weather.gov/zones/county/INC089",
+          "https://api.weather.gov/zones/county/INC111",
+          "https://api.weather.gov/zones/county/INC127"
+        ],
+        "references": [],
+        "sent": "2023-02-25T13:32:00-06:00",
+        "effective": "2023-02-25T13:32:00-06:00",
+        "onset": "2023-02-25T13:32:00-06:00",
+        "expires": "2023-02-26T12:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Unknown",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Hydrologic Outlook",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Hydrologic Outlook issued February 25 at 1:32PM CST by NWS Chicago IL",
+        "description": "Rainfall, heavy at times, is expected on Monday across parts of\nnorthern Illinois and northwestern Indiana. Local areas may receive\nrainfall amounts high enough to cause river rises, widespread\nponding of water, and localized flooding.\n\nAfter a recent soaking rainfall and freezing temperatures, soil\nmoisture is nearly ubiquitously above average in northern Illinois\nand northwestern Indiana. The current forecast of three quarters to\none inch of rainfall  may cause river stages to rise to near or\nabove bankfull, particularly along the Fox, Des Plaines, Rock, and\nKankakee River Basins. With already-elevated river stages along the\nIroquois and Illinois river basins, even limited rainfall amounts\nmay cause stages to rise near bankfull. The exact river basins that\nwill see near flood stage conditions is heavily dependent on the\nlocation of heavy rainfall.\n\nThis outlook means that elevated water levels and flooding impacts\nare possible, but not yet certain. Persons should closely monitor\nforecasts including the possibility of flood watches, warnings, and\nadvisories.",
+        "instruction": null,
+        "response": "Monitor",
+        "parameters": {
+          "AWIPSidentifier": [
+            "ESFLOT"
+          ],
+          "WMOidentifier": [
+            "FGUS73 KLOT 251932"
+          ],
+          "NWSheadline": [
+            "Heavy Rainfall and Rises in River Levels Possible Next Week"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4f952b1b39e98e27e2c11b9c6bf34c0c0adcb395.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4f952b1b39e98e27e2c11b9c6bf34c0c0adcb395.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.4f952b1b39e98e27e2c11b9c6bf34c0c0adcb395.001.1",
+        "areaDesc": "Brown, IL; Cass, IL; Fulton, IL; Mason, IL; Morgan, IL; Schuyler, IL",
+        "geocode": {
+          "SAME": [
+            "017009",
+            "017017",
+            "017057",
+            "017125",
+            "017137",
+            "017169"
+          ],
+          "UGC": [
+            "ILC009",
+            "ILC017",
+            "ILC057",
+            "ILC125",
+            "ILC137",
+            "ILC169"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/ILC009",
+          "https://api.weather.gov/zones/county/ILC017",
+          "https://api.weather.gov/zones/county/ILC057",
+          "https://api.weather.gov/zones/county/ILC125",
+          "https://api.weather.gov/zones/county/ILC137",
+          "https://api.weather.gov/zones/county/ILC169"
+        ],
+        "references": [],
+        "sent": "2023-02-25T11:27:00-06:00",
+        "effective": "2023-02-25T11:27:00-06:00",
+        "onset": "2023-02-25T11:27:00-06:00",
+        "expires": "2023-02-25T23:26:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Unknown",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Hydrologic Outlook",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lincoln IL",
+        "headline": "Hydrologic Outlook issued February 25 at 11:27AM CST by NWS Lincoln IL",
+        "description": "This hydrologic outlook includes the following river in Illinois:\n\nIllinois River...\n\nThe following river information is based on both observed and future\npredicted rainfall. Additional rainfall is expected Sunday night and\nMonday morning, but the exact amount, intensity, timing, and location of\nthat rain is still uncertain. A steady rise of the river stage is expected\nat these locations, with the potential to reach flood stage by mid week.\nOnce there is more certainty about the river forecasts, a flood warning\nor statement will be issued if the threat materializes.",
+        "instruction": null,
+        "response": "Monitor",
+        "parameters": {
+          "AWIPSidentifier": [
+            "ESFILX"
+          ],
+          "WMOidentifier": [
+            "FGUS73 KILX 251727"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.10b8873ace49ed7ef503b284cb1898f997893ac2.004.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.5699999,
+              39.3
+            ],
+            [
+              -87.53999999999999,
+              39.229999899999996
+            ],
+            [
+              -87.61999999999999,
+              39.12
+            ],
+            [
+              -87.67999999999999,
+              39.14
+            ],
+            [
+              -87.61999999999999,
+              39.22
+            ],
+            [
+              -87.63,
+              39.32
+            ],
+            [
+              -87.5699999,
+              39.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.10b8873ace49ed7ef503b284cb1898f997893ac2.004.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.10b8873ace49ed7ef503b284cb1898f997893ac2.004.1",
+        "areaDesc": "Crawford, IL; Lawrence, IL; Knox, IN; Sullivan, IN",
+        "geocode": {
+          "SAME": [
+            "017033",
+            "017101",
+            "018083",
+            "018153"
+          ],
+          "UGC": [
+            "ILC033",
+            "ILC101",
+            "INC083",
+            "INC153"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/ILC033",
+          "https://api.weather.gov/zones/county/ILC101",
+          "https://api.weather.gov/zones/county/INC083",
+          "https://api.weather.gov/zones/county/INC153"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0783feb114d345f7c4ae46e5701ca0009f149eab.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.0783feb114d345f7c4ae46e5701ca0009f149eab.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2023-02-24T21:26:00-05:00"
+          }
+        ],
+        "sent": "2023-02-25T11:31:00-05:00",
+        "effective": "2023-02-25T11:31:00-05:00",
+        "onset": "2023-02-25T17:30:00-05:00",
+        "expires": "2023-02-26T02:45:00-05:00",
+        "ends": "2023-03-05T18:08:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued February 25 at 11:31AM EST until March 5 at 6:08PM EST by NWS Indianapolis IN",
+        "description": "* WHAT...Minor flooding is forecast.\n\n* WHERE...Wabash River at Hutsonville Legacy Power Plant Site.\n\n* WHEN...From this afternoon to Sunday, March 05.\n\n* IMPACTS...At 18.0 feet, Seep water occurs behind levees on Indiana\nside.  Hutson Creek begins to overflow from backwater.  Old Darwin\nRoad and a few rural roads in eastern Clark and Crawford counties\nin Illinois are impassable.  Low agricultural land floods.\n\n* ADDITIONAL DETAILS...\n- There is no current observed data.\n- Forecast...The river is expected to rise above flood stage\nlate this afternoon to a crest of 18.3 feet early Friday\nmorning. It will then fall below flood stage Sunday, March\n05.\n- Flood stage is 16.0 feet.\n- http://www.weather.gov/safety/flood",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSIND"
+          ],
+          "WMOidentifier": [
+            "WGUS83 KIND 251631"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING NOW IN EFFECT FROM THIS AFTERNOON TO SUNDAY, MARCH 05"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KIND.FL.W.0006.230225T2230Z-230305T2308Z/"
+          ],
+          "eventEndingTime": [
+            "2023-03-05T23:08:00+00:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.50aafbb34b46a41fab942d154c54a7a303679cd2.004.1,2023-02-24T12:04:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c276de156eb582076d8e8c8cfd4e53fee5a5e366.001.1,2023-02-23T21:27:00-05:00"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.10b8873ace49ed7ef503b284cb1898f997893ac2.005.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.36,
+              39.6
+            ],
+            [
+              -87.4,
+              39.43
+            ],
+            [
+              -87.5699999,
+              39.3
+            ],
+            [
+              -87.63,
+              39.32
+            ],
+            [
+              -87.47,
+              39.45
+            ],
+            [
+              -87.41,
+              39.6
+            ],
+            [
+              -87.36,
+              39.6
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.10b8873ace49ed7ef503b284cb1898f997893ac2.005.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.10b8873ace49ed7ef503b284cb1898f997893ac2.005.1",
+        "areaDesc": "Clark, IL; Crawford, IL; Sullivan, IN; Vigo, IN",
+        "geocode": {
+          "SAME": [
+            "017023",
+            "017033",
+            "018153",
+            "018167"
+          ],
+          "UGC": [
+            "ILC023",
+            "ILC033",
+            "INC153",
+            "INC167"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/ILC023",
+          "https://api.weather.gov/zones/county/ILC033",
+          "https://api.weather.gov/zones/county/INC153",
+          "https://api.weather.gov/zones/county/INC167"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0783feb114d345f7c4ae46e5701ca0009f149eab.002.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.0783feb114d345f7c4ae46e5701ca0009f149eab.002.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2023-02-24T21:26:00-05:00"
+          }
+        ],
+        "sent": "2023-02-25T11:31:00-05:00",
+        "effective": "2023-02-25T11:31:00-05:00",
+        "onset": "2023-02-26T04:00:00-05:00",
+        "expires": "2023-02-26T02:45:00-05:00",
+        "ends": "2023-03-04T11:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued February 25 at 11:31AM EST until March 4 at 11:30AM EST by NWS Indianapolis IN",
+        "description": "* WHAT...Minor flooding is forecast.\n\n* WHERE...Wabash River at Terre Haute.\n\n* WHEN...From late tonight to late Saturday morning.\n\n* IMPACTS...At 18.5 feet, Flooding of rural roads is in progress\nbehind Honey Creek Levee as a result of two unrepaired levee\nbreaks.\n\n* ADDITIONAL DETAILS...\n- At 9:30 AM CST Saturday /10:30 AM EST Saturday/ the stage was\n15.9 feet.\n- Forecast...The river is expected to rise above flood stage\nlate tonight to a crest of 18.8 feet Wednesday morning. It\nwill then fall below flood stage late Friday evening.\n- Flood stage is 16.5 feet.\n- http://www.weather.gov/safety/flood",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSIND"
+          ],
+          "WMOidentifier": [
+            "WGUS83 KIND 251631"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING NOW IN EFFECT FROM LATE TONIGHT TO LATE SATURDAY MORNING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KIND.FL.W.0008.230226T0900Z-230304T1630Z/"
+          ],
+          "eventEndingTime": [
+            "2023-03-04T16:30:00+00:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.50aafbb34b46a41fab942d154c54a7a303679cd2.005.1,2023-02-24T12:04:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c276de156eb582076d8e8c8cfd4e53fee5a5e366.003.1,2023-02-23T21:27:00-05:00"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b93ef518b240d50e6edb7ba0b262453c211f37f.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.47,
+              40.19
+            ],
+            [
+              -88.47,
+              40.08
+            ],
+            [
+              -88.53999999999999,
+              40.01
+            ],
+            [
+              -88.74,
+              39.9
+            ],
+            [
+              -88.74,
+              40
+            ],
+            [
+              -88.61,
+              40.06
+            ],
+            [
+              -88.47,
+              40.19
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b93ef518b240d50e6edb7ba0b262453c211f37f.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.8b93ef518b240d50e6edb7ba0b262453c211f37f.001.1",
+        "areaDesc": "Piatt, IL",
+        "geocode": {
+          "SAME": [
+            "017147"
+          ],
+          "UGC": [
+            "ILC147"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/ILC147"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a92f7359e255c45a062f9cb6e7060722936f5915.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.a92f7359e255c45a062f9cb6e7060722936f5915.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2023-02-24T19:13:00-06:00"
+          }
+        ],
+        "sent": "2023-02-25T09:53:00-06:00",
+        "effective": "2023-02-25T09:53:00-06:00",
+        "onset": "2023-02-25T10:45:00-06:00",
+        "expires": "2023-02-26T02:00:00-06:00",
+        "ends": "2023-02-28T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lincoln IL",
+        "headline": "Flood Warning issued February 25 at 9:53AM CST until February 28 at 12:00AM CST by NWS Lincoln IL",
+        "description": "* WHAT...Minor flooding is forecast.\n\n* WHERE...Sangamon River at Monticello.\n\n* WHEN...Until early Tuesday morning.\n\n* IMPACTS...At 13.0 feet, Flooding of agricultural areas begins.\n\n* ADDITIONAL DETAILS...\n- At 9:00 AM CST Saturday the stage was 12.9 feet.\n- Forecast...The river will rise above flood stage late this\nmorning to 14.2 feet early tomorrow afternoon. It will then\nfall below flood stage Monday evening to 12 feet early\nThursday afternoon.\n- Flood stage is 13.0 feet.\n- http://www.weather.gov/safety/flood",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSILX"
+          ],
+          "WMOidentifier": [
+            "WGUS83 KILX 251553"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING NOW IN EFFECT UNTIL EARLY TUESDAY MORNING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KILX.FL.W.0004.230225T1645Z-230228T0600Z/"
+          ],
+          "eventEndingTime": [
+            "2023-02-28T06:00:00+00:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.01de00ac1817150bf5d717560dc0b720f569291e.001.1,2023-02-24T08:58:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.568d936bae813edefde3e20a552d21b3d7ef9560.001.1,2023-02-23T19:41:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.be16653482c9852d8745f4816510de5b6f8fe817.001.1,2023-02-23T09:53:00-06:00"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f35a11d5c2689251b8cf7595c47f1c6e9fc1024f.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.74,
+              40.84
+            ],
+            [
+              -87.49,
+              40.86000000000001
+            ],
+            [
+              -87.4599999,
+              40.77
+            ],
+            [
+              -87.79,
+              40.760000000000005
+            ],
+            [
+              -87.74,
+              40.84
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f35a11d5c2689251b8cf7595c47f1c6e9fc1024f.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.f35a11d5c2689251b8cf7595c47f1c6e9fc1024f.001.1",
+        "areaDesc": "Iroquois, IL; Newton, IN",
+        "geocode": {
+          "SAME": [
+            "017075",
+            "018111"
+          ],
+          "UGC": [
+            "ILC075",
+            "INC111"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/ILC075",
+          "https://api.weather.gov/zones/county/INC111"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.023007801caee77841a69a0c4c5072fe776735d9.002.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.023007801caee77841a69a0c4c5072fe776735d9.002.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2023-02-24T19:22:00-06:00"
+          }
+        ],
+        "sent": "2023-02-25T09:50:00-06:00",
+        "effective": "2023-02-25T09:50:00-06:00",
+        "onset": "2023-02-25T09:50:00-06:00",
+        "expires": "2023-02-26T04:00:00-06:00",
+        "ends": "2023-02-26T15:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued February 25 at 9:50AM CST until February 26 at 3:00PM CST by NWS Chicago IL",
+        "description": "* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Iroquois River from Near US-41 downstream to confluence\nwith Sugar Creek at Watseka, including the Iroquois gauge.\n\n* WHEN...Until tomorrow afternoon.\n\n* IMPACTS...At 18.0 feet, agricultural areas near the river begin to\nflood.\n\n* ADDITIONAL DETAILS...\n- At 9:00 AM CST Saturday the stage was 19.4 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 9:00 AM CST Saturday was 19.5 feet.\n- Forecast...The river is expected to fall below flood stage\nlate tomorrow morning.\n- Flood stage is 18.0 feet.\n- http://www.weather.gov/safety/flood",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSLOT"
+          ],
+          "WMOidentifier": [
+            "WGUS83 KLOT 251550"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING NOW IN EFFECT UNTIL TOMORROW AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KLOT.FL.W.0002.000000T0000Z-230226T2100Z/"
+          ],
+          "eventEndingTime": [
+            "2023-02-26T21:00:00+00:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.480567fbdd0c127e9f53ab53f67c20350d132f95.001.1,2023-02-24T09:47:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c41b2d68788726f2e002416159fcabb63e3cfc4b.002.1,2023-02-23T19:57:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ea6920adb758e61cae38a2d855accf863c286cf5.001.1,2023-02-23T10:35:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a5f4b53573a726016f5e51ab5f63d1ae95959af8.001.1,2023-02-23T08:05:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.91c59cb1300699e5093e7cf34f5a6e4865bd6a1e.001.1,2023-02-22T20:29:00-06:00"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0cc8f5f5d8a4c869b48bdbfa8960ee8922f15cca.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.78,
+              40.79
+            ],
+            [
+              -87.7,
+              40.79
+            ],
+            [
+              -87.68,
+              40.6599999
+            ],
+            [
+              -87.63000000000001,
+              40.6599999
+            ],
+            [
+              -87.63000000000001,
+              40.59
+            ],
+            [
+              -87.76,
+              40.580000000000005
+            ],
+            [
+              -87.78,
+              40.79
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0cc8f5f5d8a4c869b48bdbfa8960ee8922f15cca.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.0cc8f5f5d8a4c869b48bdbfa8960ee8922f15cca.001.1",
+        "areaDesc": "Iroquois, IL",
+        "geocode": {
+          "SAME": [
+            "017075"
+          ],
+          "UGC": [
+            "ILC075"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/ILC075"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.023007801caee77841a69a0c4c5072fe776735d9.003.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.023007801caee77841a69a0c4c5072fe776735d9.003.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2023-02-24T19:22:00-06:00"
+          }
+        ],
+        "sent": "2023-02-25T09:48:00-06:00",
+        "effective": "2023-02-25T09:48:00-06:00",
+        "onset": "2023-02-25T09:48:00-06:00",
+        "expires": "2023-02-25T18:45:00-06:00",
+        "ends": "2023-02-25T18:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued February 25 at 9:48AM CST until February 25 at 6:45PM CST by NWS Chicago IL",
+        "description": "* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Sugar Creek from Near Milford downstream to confluence\nwith Iroquois River at Watseka, including the Milford gauge.\n\n* WHEN...Until this evening.\n\n* IMPACTS...At 18.0 feet, County Road 1090N threatened east of the\nriver north of Milford. Recreation fields inundated near the river\nin southwest Milford. Roadways are threatened at Legion Park in\nWatseka.\n\n* ADDITIONAL DETAILS...\n- At 9:00 AM CST Saturday the stage was 18.4 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 9:00 AM CST Saturday was 21.3 feet.\n- Forecast...The river is expected to fall below flood stage\nthis afternoon.\n- Flood stage is 18.0 feet.\n- http://www.weather.gov/safety/flood",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSLOT"
+          ],
+          "WMOidentifier": [
+            "WGUS83 KLOT 251548"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING NOW IN EFFECT UNTIL THIS EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KLOT.FL.W.0001.000000T0000Z-230226T0045Z/"
+          ],
+          "eventEndingTime": [
+            "2023-02-26T00:45:00+00:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6766e86de4d576bf26a280804602b5c5a5f79bb0.001.1,2023-02-24T09:53:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c41b2d68788726f2e002416159fcabb63e3cfc4b.003.1,2023-02-23T19:57:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f15437d2aa9557ae6727cc95285bc694bedc2e07.001.1,2023-02-23T10:48:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.96708ee36703defd1511bab885962b44fa4ce33a.001.1,2023-02-23T08:10:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f6a006add8f0584618ec469a69bf9eb20fee22d0.001.1,2023-02-22T20:34:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.19e51b9fec4976c1ef6721187f8a28f7e2d4d660.001.1,2023-02-22T16:58:00-06:00"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82fb1a376ea92429847e2872197112735d431f91.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.4,
+              41.31
+            ],
+            [
+              -89.33000000000001,
+              41.35
+            ],
+            [
+              -88.98000000000002,
+              41.370000000000005
+            ],
+            [
+              -88.99000000000002,
+              41.28
+            ],
+            [
+              -89.29000000000002,
+              41.28
+            ],
+            [
+              -89.4,
+              41.31
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82fb1a376ea92429847e2872197112735d431f91.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.82fb1a376ea92429847e2872197112735d431f91.001.1",
+        "areaDesc": "Bureau, IL; La Salle, IL; Putnam, IL",
+        "geocode": {
+          "SAME": [
+            "017011",
+            "017099",
+            "017155"
+          ],
+          "UGC": [
+            "ILC011",
+            "ILC099",
+            "ILC155"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/ILC011",
+          "https://api.weather.gov/zones/county/ILC099",
+          "https://api.weather.gov/zones/county/ILC155"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5685ff7910868021e7a93da3b56a29ed95b080a.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.e5685ff7910868021e7a93da3b56a29ed95b080a.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2023-02-23T11:54:00-06:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.496bfc850277c7bc92720a90fce5e860b8119ba3.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.496bfc850277c7bc92720a90fce5e860b8119ba3.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2023-02-23T08:05:00-06:00"
+          }
+        ],
+        "sent": "2023-02-23T20:18:00-06:00",
+        "effective": "2023-02-23T20:18:00-06:00",
+        "onset": "2023-02-25T08:00:00-06:00",
+        "expires": "2023-02-24T14:30:00-06:00",
+        "ends": "2023-02-27T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued February 23 at 8:18PM CST until February 27 at 12:00PM CST by NWS Chicago IL",
+        "description": "* WHAT...Minor flooding is forecast.\n\n* WHERE...Illinois River from Starved Rock Lock and Dam downstream\nto confluence with Big Bureau Creek, including the La Salle gauge.\n\n* WHEN...From Saturday morning to early Monday afternoon.\n\n* IMPACTS...At 20.0 feet, Agricultural areas in La Salle, Spring\nValley, and Peru are inundated.\n\n* ADDITIONAL DETAILS...\n- At 7:45 PM CST Thursday the stage was 16.2 feet.\n- Forecast...The river is expected to rise above flood stage\nSaturday morning to a crest of 20.4 feet early Sunday\nmorning. It will then fall below flood stage Monday morning.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSLOT"
+          ],
+          "WMOidentifier": [
+            "WGUS83 KLOT 240218"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING IN EFFECT FROM SATURDAY MORNING TO EARLY MONDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KLOT.FL.W.0003.230225T1400Z-230227T1800Z/"
+          ],
+          "eventEndingTime": [
+            "2023-02-27T18:00:00+00:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fb5639900ed14dac633de955e956717486be3594.001.1,2023-02-22T22:11:00-06:00"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5c42acb2d9285ee12593c9c1172af7ab23e1971.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.88,
+              41.09
+            ],
+            [
+              -87.78,
+              41.09
+            ],
+            [
+              -87.76,
+              40.89
+            ],
+            [
+              -87.74000000000001,
+              40.84
+            ],
+            [
+              -87.79,
+              40.760000000000005
+            ],
+            [
+              -87.85000000000001,
+              40.81
+            ],
+            [
+              -87.88,
+              41.09
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5c42acb2d9285ee12593c9c1172af7ab23e1971.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.c5c42acb2d9285ee12593c9c1172af7ab23e1971.001.1",
+        "areaDesc": "Kankakee; Iroquois",
+        "geocode": {
+          "SAME": [
+            "017091",
+            "017075"
+          ],
+          "UGC": [
+            "ILZ023",
+            "ILZ033"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/ILZ023",
+          "https://api.weather.gov/zones/forecast/ILZ033"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0c569c75eba11dffd5d1f123416d48075daf6f80.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.0c569c75eba11dffd5d1f123416d48075daf6f80.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2023-02-23T08:08:00-06:00"
+          }
+        ],
+        "sent": "2023-02-23T19:57:00-06:00",
+        "effective": "2023-02-23T19:57:00-06:00",
+        "onset": "2023-02-25T07:30:00-06:00",
+        "expires": "2023-02-24T14:00:00-06:00",
+        "ends": "2023-02-26T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Watch issued February 23 at 7:57PM CST until February 26 at 12:00PM CST by NWS Chicago IL",
+        "description": "* WHAT...Flooding is possible.\n\n* WHERE...Iroquois River from Watseka downstream to confluence with\nKankakee River at Aroma Park, including the Chebanse gauge.\n\n* WHEN...From Saturday morning to early Sunday afternoon.\n\n* IMPACTS...At 16.0 feet, Agricultural land along the river is\ninundated.\n\n* ADDITIONAL DETAILS...\n- At 6:45 PM CST Thursday the stage was 10.5 feet.\n- Forecast...Flood stage may be reached Saturday morning.\n- Flood stage is 16.0 feet.\n- http://www.weather.gov/safety/flood",
+        "instruction": null,
+        "response": "Prepare",
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFALOT"
+          ],
+          "WMOidentifier": [
+            "WGUS63 KLOT 240157"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH IN EFFECT FROM SATURDAY MORNING TO EARLY SUNDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KLOT.FL.A.0007.230225T1330Z-230226T1800Z/"
+          ],
+          "eventEndingTime": [
+            "2023-02-26T18:00:00+00:00"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d99a88e5c2e6021a24707a270d510000d5510fe.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.98,
+              41.37
+            ],
+            [
+              -88.79,
+              41.37
+            ],
+            [
+              -88.79,
+              41.3
+            ],
+            [
+              -88.99000000000001,
+              41.279999999999994
+            ],
+            [
+              -88.98,
+              41.37
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d99a88e5c2e6021a24707a270d510000d5510fe.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.0d99a88e5c2e6021a24707a270d510000d5510fe.001.1",
+        "areaDesc": "La Salle",
+        "geocode": {
+          "SAME": [
+            "017099"
+          ],
+          "UGC": [
+            "ILZ019"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/ILZ019"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aacd50247f1c0e3b635d2641cd9d424ff597882e.002.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.aacd50247f1c0e3b635d2641cd9d424ff597882e.002.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2023-02-22T22:11:00-06:00"
+          }
+        ],
+        "sent": "2023-02-23T13:53:00-06:00",
+        "effective": "2023-02-23T13:53:00-06:00",
+        "onset": "2023-02-24T12:00:00-06:00",
+        "expires": "2023-02-24T08:00:00-06:00",
+        "ends": "2023-02-27T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Watch issued February 23 at 1:53PM CST until February 27 at 12:00AM CST by NWS Chicago IL",
+        "description": "* WHAT...Flooding is possible.\n\n* WHERE...Illinois River from Heritage Harbor east of Ottawa\ndownstream to Starved Rock Lock and Dam, including the Ottawa\ngauge.\n\n* WHEN...From Friday afternoon to early Monday morning.\n\n* IMPACTS...At 462.5 feet, Roadway entrance to Allen Park threatened\nin Ottawa. Allen Park west boat ramp inundated in Ottawa.\n\n* ADDITIONAL DETAILS...\n- At 1:30 PM CST Thursday the stage was 460.4 feet.\n- Forecast...Flood stage may be reached early Saturday\nafternoon.\n- Flood stage is 463.0 feet.\n- http://www.weather.gov/safety/flood",
+        "instruction": null,
+        "response": "Prepare",
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFALOT"
+          ],
+          "WMOidentifier": [
+            "WGUS63 KLOT 231953"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH NOW IN EFFECT FROM FRIDAY AFTERNOON TO EARLY MONDAY MORNING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KLOT.FL.A.0005.230224T1800Z-230227T0600Z/"
+          ],
+          "eventEndingTime": [
+            "2023-02-27T06:00:00+00:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.aded0a7f3cd5137b7da47a5924cc74ed9be5504e.001.1,2023-02-22T10:41:00-06:00"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aded0a7f3cd5137b7da47a5924cc74ed9be5504e.002.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.4,
+              41.31
+            ],
+            [
+              -89.33000000000001,
+              41.35
+            ],
+            [
+              -88.98000000000002,
+              41.370000000000005
+            ],
+            [
+              -88.99000000000002,
+              41.28
+            ],
+            [
+              -89.29000000000002,
+              41.28
+            ],
+            [
+              -89.4,
+              41.31
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aded0a7f3cd5137b7da47a5924cc74ed9be5504e.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.aded0a7f3cd5137b7da47a5924cc74ed9be5504e.002.1",
+        "areaDesc": "Bureau; Putnam; La Salle",
+        "geocode": {
+          "SAME": [
+            "017011",
+            "017155",
+            "017099"
+          ],
+          "UGC": [
+            "ILZ017",
+            "ILZ018",
+            "ILZ019"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/ILZ017",
+          "https://api.weather.gov/zones/forecast/ILZ018",
+          "https://api.weather.gov/zones/forecast/ILZ019"
+        ],
+        "references": [],
+        "sent": "2023-02-22T10:41:00-06:00",
+        "effective": "2023-02-22T10:41:00-06:00",
+        "onset": "2023-02-23T22:09:00-06:00",
+        "expires": "2023-02-23T04:45:00-06:00",
+        "ends": "2023-02-28T09:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Watch issued February 22 at 10:41AM CST until February 28 at 9:00AM CST by NWS Chicago IL",
+        "description": "* WHAT...Flooding is possible.\n\n* WHERE...Illinois River from Starved Rock Lock and Dam downstream\nto confluence with Big Bureau Creek, including the La Salle gauge.\n\n* WHEN...From Thursday evening to late Tuesday morning.\n\n* IMPACTS...At 22.0 feet, Lower parking lot at Starved Rock State\nPark is inundated east of La Salle. High water levels begin to\nimpact shipping interests along the river.\n\n* ADDITIONAL DETAILS...\n- At 9:45 AM CST Wednesday the stage was 12.7 feet.\n- Forecast...Flood stage may be reached late tomorrow evening.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
+        "instruction": null,
+        "response": "Prepare",
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFALOT"
+          ],
+          "WMOidentifier": [
+            "WGUS63 KLOT 221641"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH IN EFFECT FROM THURSDAY EVENING TO LATE TUESDAY MORNING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.NEW.KLOT.FL.A.0006.230224T0409Z-230228T1500Z/"
+          ],
+          "eventEndingTime": [
+            "2023-02-28T15:00:00+00:00"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea0317714e9ab841e33102d33ec3352b2308e80b.003.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.74,
+              40.84
+            ],
+            [
+              -87.49,
+              40.86000000000001
+            ],
+            [
+              -87.4599999,
+              40.77
+            ],
+            [
+              -87.79,
+              40.760000000000005
+            ],
+            [
+              -87.74,
+              40.84
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea0317714e9ab841e33102d33ec3352b2308e80b.003.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.ea0317714e9ab841e33102d33ec3352b2308e80b.003.1",
+        "areaDesc": "Iroquois; Newton",
+        "geocode": {
+          "SAME": [
+            "017075",
+            "018111"
+          ],
+          "UGC": [
+            "ILZ033",
+            "INZ010"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/ILZ033",
+          "https://api.weather.gov/zones/forecast/INZ010"
+        ],
+        "references": [],
+        "sent": "2023-02-22T09:12:00-06:00",
+        "effective": "2023-02-22T09:12:00-06:00",
+        "onset": "2023-02-24T14:40:00-06:00",
+        "expires": "2023-02-23T03:15:00-06:00",
+        "ends": "2023-02-27T20:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Watch issued February 22 at 9:12AM CST until February 27 at 8:00PM CST by NWS Chicago IL",
+        "description": "* WHAT...Flooding is possible.\n\n* WHERE...Iroquois River from Near US-41 downstream to confluence\nwith Sugar Creek at Watseka, including the Iroquois gauge.\n\n* WHEN...From Friday afternoon to Monday evening.\n\n* IMPACTS...At 21.5 feet, County Road 1950N threatened north of\nWatseka.\n\n* ADDITIONAL DETAILS...\n- At 8:00 AM CST Wednesday the stage was 7.1 feet.\n- Forecast...Flood stage may be reached early Friday afternoon.\n- Flood stage is 18.0 feet.\n- http://www.weather.gov/safety/flood",
+        "instruction": null,
+        "response": "Prepare",
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFALOT"
+          ],
+          "WMOidentifier": [
+            "WGUS63 KLOT 221512"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH IN EFFECT FROM FRIDAY AFTERNOON TO MONDAY EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.NEW.KLOT.FL.A.0003.230224T2040Z-230228T0200Z/"
+          ],
+          "eventEndingTime": [
+            "2023-02-28T02:00:00+00:00"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for Illinois",
+  "updated": "2023-02-25T21:00:42+00:00"
+}
