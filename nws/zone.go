@@ -4,6 +4,7 @@ import "time"
 
 type ZonesResponse struct {
 	Zones     []ZoneFeature `json:"features"`
+	Area      string
 	ExpiresAt time.Time
 }
 

@@ -40,7 +40,7 @@ func GetZones(area string) (*ZonesResponse, error) {
 		}
 	}
 
-	data := ZonesResponse{ExpiresAt: expiresAt}
+	data := ZonesResponse{Area: area, ExpiresAt: expiresAt}
 	if err := json.NewDecoder(resp.Body).Decode(&data); err != nil {
 		return nil, err
 	}
