@@ -3,16 +3,16 @@ package nws
 import "time"
 
 type ZonesResponse struct {
-	Zones     []Zone `json:"features"`
+	Zones     []ZoneFeature `json:"features"`
 	ExpiresAt time.Time
 }
 
-type Zone struct {
-	URI        string         `json:"id"`
-	Properties ZoneProperties `json:"properties"`
+type ZoneFeature struct {
+	URI        string                `json:"id"`
+	Properties ZoneFeatureProperties `json:"properties"`
 }
 
-type ZoneProperties struct {
+type ZoneFeatureProperties struct {
 	ID             string    `json:"id"`
 	Type           string    `json:"type"`
 	Name           string    `json:"name"`
