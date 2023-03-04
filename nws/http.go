@@ -12,7 +12,7 @@ var GetZonesURL string = "https://api.weather.gov/zones?area=%s"
 
 // GetZones calls the NWS api to get all the zones for the specified area. The area is the code name for the specified area.
 // For example, to get the zones for Illinois use IL as the area.
-func GetZones(area string) (*ZonesResponse, error) {
+func GetZones(area string) (*AreaZones, error) {
 	resp, err := http.Get(fmt.Sprintf(GetZonesURL, area))
 	if err != nil {
 		return nil, err
@@ -40,12 +40,12 @@ func GetZones(area string) (*ZonesResponse, error) {
 		}
 	}
 
-	data := ZonesResponse{Area: area, ExpiresAt: expiresAt}
+	data := zonesResponse{Area: area, ExpiresAt: expiresAt}
 	if err := json.NewDecoder(resp.Body).Decode(&data); err != nil {
 		return nil, err
 	}
 
-	return &data, nil
+	return data.AsAreaZones(), nil
 }
 
 // NextDay returns the UTC time exactly 24 hours in the future from the moment the func is called.
