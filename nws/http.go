@@ -52,3 +52,48 @@ func GetZones(area string) (*AreaZones, error) {
 func NextDay() time.Time {
 	return time.Now().Add(time.Hour * 24).UTC()
 }
+
+var GetZoneURL = "https://api.weather.gov/zones/%s/%s"
+
+// GetZoneGeo calls the NWS api to get the geometric data for the specified zone. The zone type (county, forecast, fire, etc.)
+// must also be specified.
+func GetZoneGeo(zoneID string, zoneType string) (*Geo, error) {
+	resp, err := http.Get(fmt.Sprintf(GetZoneURL, zoneType, zoneID))
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	var data zoneGeoRespone
+	if err := json.NewDecoder(resp.Body).Decode(&data); err != nil {
+		return nil, err
+	}
+
+	geo := Geo{geoType: data.Geo.Type}
+
+	var gErr error
+	switch geo.geoType {
+	case "Polygon":
+		gErr = unmarshalGeo[PolygonList](data.Geo.Coordinates, &geo)
+	case "MultiPolygon":
+		gErr = unmarshalGeo[MultiPolygon](data.Geo.Coordinates, &geo)
+	}
+
+	if gErr != nil {
+		return nil, gErr
+	}
+
+	return &geo, nil
+}
+
+// unmarshalGeo will unmarshal json to a supported type and store it into a *Geo.Coordinates.
+func unmarshalGeo[T PolygonList | MultiPolygon](data *json.RawMessage, dest *Geo) error {
+	var t T
+	err := json.Unmarshal(*data, &t)
+	if err != nil {
+		return err
+	}
+
+	dest.coordinates = t
+	return nil
+}
