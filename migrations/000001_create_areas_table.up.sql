@@ -1,0 +1,4 @@
+CREATE TABLE areas (
+    id CHAR(2) PRIMARY KEY,
+    expires_at TIMESTAMPTZ NOT NULL
+);
